@@ -43,9 +43,7 @@ public class Stack {
             //no elements
             return null;
         }
-        //get element from head
-        Object object = head.getObject();
-        head = head.getNextStep();
+        Object object = tail.getObject();
         sizeStack--;
         //if last element
         if (head == null) {
