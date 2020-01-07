@@ -1,1 +1,38 @@
+Class is already in BlackList: BankDetails
+---------------- Check BlackList --------
+ ----- BlackList -----
+BankDetails
+IdDetails
+----------------------
+---------------- Check 1 ----------------
+It's not allowed to add this Object: class IdDetails
+---------- STACK ----------
+Stack size: 4
+3 Person{lastName='LastName3', firstName='FirstName3', age=26, sex=true}
+2 Student{Person{lastName='LastName2', firstName='FirstName2', age=25, sex=true} departmentNumber=225, groupNumber=25, groupName='FIOT-25', studentCard=1524}
+1 Person{lastName='LastName1', firstName='FirstName1', age=30, sex=false}
+0 Car{model='Toyota', name='Corolla', year=2015, color='black'}
+---------- RESULT after Pull: -----------
+---------- STACK ----------
+Stack size: 3
+2 Student{Person{lastName='LastName2', firstName='FirstName2', age=25, sex=true} departmentNumber=225, groupNumber=25, groupName='FIOT-25', studentCard=1524}
+1 Person{lastName='LastName1', firstName='FirstName1', age=30, sex=false}
+0 Car{model='Toyota', name='Corolla', year=2015, color='black'}
+---------------- Check 2 ----------------
+It's not allowed to add this Object: class BankDetails
+---------- STACK ----------
+Stack size: 5
+4 Person{lastName='LastName4', firstName='FirstName4', age=19, sex=false}
+3 Person{lastName='LastName3', firstName='FirstName3', age=26, sex=true}
+2 Student{Person{lastName='LastName2', firstName='FirstName2', age=25, sex=true} departmentNumber=225, groupNumber=25, groupName='FIOT-25', studentCard=1524}
+1 Person{lastName='LastName1', firstName='FirstName1', age=30, sex=false}
+0 Car{model='Toyota', name='Corolla', year=2015, color='black'}
+---------- RESULT after 2 Pull: ----------
+---------- STACK ----------
+Stack size: 3
+2 Student{Person{lastName='LastName2', firstName='FirstName2', age=25, sex=true} departmentNumber=225, groupNumber=25, groupName='FIOT-25', studentCard=1524}
+1 Person{lastName='LastName1', firstName='FirstName1', age=30, sex=false}
+0 Car{model='Toyota', name='Corolla', year=2015, color='black'}
+
+Process finished with exit code 0
 
